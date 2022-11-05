@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <type name="Magento\Catalog\Block\Product\ProductList\Toolbar">
+        <plugin name="custom_block_toolbar" type="Adriano\NewSorting\Block\Product\ProductList\Toolbar" />
+    </type>
+    <type name="Magento\Catalog\Model\Config">
+        <plugin name="custom_catalog_model_config" type="Adriano\NewSorting\Model\Config" />
+    </type>
+</config>
